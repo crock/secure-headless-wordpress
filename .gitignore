@@ -1,0 +1,14 @@
+# Composer dependencies
+vendor
+
+# useless macOS file
+.DS_Store
+
+# Don't steal our secrets!
+.env
+
+# editor configurations
+.idea
+.vscode
+.atom
+.nova
