@@ -2,7 +2,7 @@
 
 A secure, pre-configured base setup for running WordPress completely headless
 
-# Usage
+## Usage
 
 Make sure you install [Composer](https://getcomposer.org/) first.
 
