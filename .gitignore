@@ -1,5 +1,6 @@
 # Composer dependencies
 vendor
+wp
 
 # useless macOS file
 .DS_Store
