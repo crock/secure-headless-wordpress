@@ -19,14 +19,9 @@
       "wpackagist-plugin/woocommerce": "*",
       "wpackagist-plugin/woocommerce-gateway-stripe": "*"
     },
-    "extra": {
-      "wordpress-install-dir": "wp"
-    },
     "scripts": {
       "post-install-cmd": [
-        "php -r \"copy('wp-config.sample.php', 'wp/wp-config.php');\"",
-        "cp -R wp-content/* wp/wp-content",
-        "rm -rf wp-content"
+        "php -r \"copy('wp-config.sample.php', 'wp-config.php');\"",
       ]
     }
 }
